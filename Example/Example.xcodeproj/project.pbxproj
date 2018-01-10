@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		448FDCF22006222B00C1AC83 /* SlidingWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 448FDCF02006222B00C1AC83 /* SlidingWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		448FDCFA2006224700C1AC83 /* SlidingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FDCF92006224700C1AC83 /* SlidingWindow.swift */; };
+		448FDD202006281600C1AC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FDD1F2006281600C1AC83 /* AppDelegate.swift */; };
+		448FDD222006281600C1AC83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FDD212006281600C1AC83 /* ViewController.swift */; };
+		448FDD252006281600C1AC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448FDD232006281600C1AC83 /* Main.storyboard */; };
+		448FDD272006281600C1AC83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448FDD262006281600C1AC83 /* Assets.xcassets */; };
+		448FDD2A2006281600C1AC83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448FDD282006281600C1AC83 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		448FDCED2006222B00C1AC83 /* SlidingWindow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlidingWindow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		448FDCF02006222B00C1AC83 /* SlidingWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlidingWindow.h; sourceTree = "<group>"; };
-		448FDCF12006222B00C1AC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		448FDCF92006224700C1AC83 /* SlidingWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingWindow.swift; sourceTree = "<group>"; };
+		448FDD1C2006281600C1AC83 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		448FDD1F2006281600C1AC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		448FDD212006281600C1AC83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		448FDD242006281600C1AC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		448FDD262006281600C1AC83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		448FDD292006281600C1AC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		448FDD2B2006281600C1AC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		448FDCE92006222B00C1AC83 /* Frameworks */ = {
+		448FDD192006281600C1AC83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,89 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		448FDCE32006222B00C1AC83 = {
+		448FDD132006281600C1AC83 = {
 			isa = PBXGroup;
 			children = (
-				448FDCEF2006222B00C1AC83 /* SlidingWindow */,
-				448FDCEE2006222B00C1AC83 /* Products */,
+				448FDD1E2006281600C1AC83 /* Example */,
+				448FDD1D2006281600C1AC83 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		448FDCEE2006222B00C1AC83 /* Products */ = {
+		448FDD1D2006281600C1AC83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				448FDCED2006222B00C1AC83 /* SlidingWindow.framework */,
+				448FDD1C2006281600C1AC83 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		448FDCEF2006222B00C1AC83 /* SlidingWindow */ = {
+		448FDD1E2006281600C1AC83 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				448FDCF82006224700C1AC83 /* Classes */,
-				448FDCF02006222B00C1AC83 /* SlidingWindow.h */,
-				448FDCF12006222B00C1AC83 /* Info.plist */,
+				448FDD1F2006281600C1AC83 /* AppDelegate.swift */,
+				448FDD212006281600C1AC83 /* ViewController.swift */,
+				448FDD232006281600C1AC83 /* Main.storyboard */,
+				448FDD262006281600C1AC83 /* Assets.xcassets */,
+				448FDD282006281600C1AC83 /* LaunchScreen.storyboard */,
+				448FDD2B2006281600C1AC83 /* Info.plist */,
 			);
-			path = SlidingWindow;
-			sourceTree = "<group>";
-		};
-		448FDCF82006224700C1AC83 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				448FDCF92006224700C1AC83 /* SlidingWindow.swift */,
-			);
-			path = Classes;
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		448FDCEA2006222B00C1AC83 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				448FDCF22006222B00C1AC83 /* SlidingWindow.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		448FDCEC2006222B00C1AC83 /* SlidingWindow */ = {
+		448FDD1B2006281600C1AC83 /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 448FDCF52006222B00C1AC83 /* Build configuration list for PBXNativeTarget "SlidingWindow" */;
+			buildConfigurationList = 448FDD2E2006281600C1AC83 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				448FDCE82006222B00C1AC83 /* Sources */,
-				448FDCE92006222B00C1AC83 /* Frameworks */,
-				448FDCEA2006222B00C1AC83 /* Headers */,
-				448FDCEB2006222B00C1AC83 /* Resources */,
+				448FDD182006281600C1AC83 /* Sources */,
+				448FDD192006281600C1AC83 /* Frameworks */,
+				448FDD1A2006281600C1AC83 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SlidingWindow;
-			productName = SlidingWindow;
-			productReference = 448FDCED2006222B00C1AC83 /* SlidingWindow.framework */;
-			productType = "com.apple.product-type.framework";
+			name = Example;
+			productName = Example;
+			productReference = 448FDD1C2006281600C1AC83 /* Example.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		448FDCE42006222B00C1AC83 /* Project object */ = {
+		448FDD142006281600C1AC83 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Genysis;
 				TargetAttributes = {
-					448FDCEC2006222B00C1AC83 = {
+					448FDD1B2006281600C1AC83 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 448FDCE72006222B00C1AC83 /* Build configuration list for PBXProject "SlidingWindow" */;
+			buildConfigurationList = 448FDD172006281600C1AC83 /* Build configuration list for PBXProject "Example" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,39 +108,62 @@
 				en,
 				Base,
 			);
-			mainGroup = 448FDCE32006222B00C1AC83;
-			productRefGroup = 448FDCEE2006222B00C1AC83 /* Products */;
+			mainGroup = 448FDD132006281600C1AC83;
+			productRefGroup = 448FDD1D2006281600C1AC83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				448FDCEC2006222B00C1AC83 /* SlidingWindow */,
+				448FDD1B2006281600C1AC83 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		448FDCEB2006222B00C1AC83 /* Resources */ = {
+		448FDD1A2006281600C1AC83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				448FDD2A2006281600C1AC83 /* LaunchScreen.storyboard in Resources */,
+				448FDD272006281600C1AC83 /* Assets.xcassets in Resources */,
+				448FDD252006281600C1AC83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		448FDCE82006222B00C1AC83 /* Sources */ = {
+		448FDD182006281600C1AC83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				448FDCFA2006224700C1AC83 /* SlidingWindow.swift in Sources */,
+				448FDD222006281600C1AC83 /* ViewController.swift in Sources */,
+				448FDD202006281600C1AC83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		448FDD232006281600C1AC83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448FDD242006281600C1AC83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		448FDD282006281600C1AC83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448FDD292006281600C1AC83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		448FDCF32006222B00C1AC83 /* Debug */ = {
+		448FDD2C2006281600C1AC83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -182,7 +194,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -206,12 +217,10 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		448FDCF42006222B00C1AC83 /* Release */ = {
+		448FDD2D2006281600C1AC83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +251,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -259,48 +267,34 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		448FDCF62006222B00C1AC83 /* Debug */ = {
+		448FDD2F2006281600C1AC83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WY9KU9K2Z2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SlidingWindow/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Genysis.SlidingWindow;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Genysis.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		448FDCF72006222B00C1AC83 /* Release */ = {
+		448FDD302006281600C1AC83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WY9KU9K2Z2;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SlidingWindow/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Genysis.SlidingWindow;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Genysis.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		448FDCE72006222B00C1AC83 /* Build configuration list for PBXProject "SlidingWindow" */ = {
+		448FDD172006281600C1AC83 /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				448FDCF32006222B00C1AC83 /* Debug */,
-				448FDCF42006222B00C1AC83 /* Release */,
+				448FDD2C2006281600C1AC83 /* Debug */,
+				448FDD2D2006281600C1AC83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		448FDCF52006222B00C1AC83 /* Build configuration list for PBXNativeTarget "SlidingWindow" */ = {
+		448FDD2E2006281600C1AC83 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				448FDCF62006222B00C1AC83 /* Debug */,
-				448FDCF72006222B00C1AC83 /* Release */,
+				448FDD2F2006281600C1AC83 /* Debug */,
+				448FDD302006281600C1AC83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 448FDCE42006222B00C1AC83 /* Project object */;
+	rootObject = 448FDD142006281600C1AC83 /* Project object */;
 }
